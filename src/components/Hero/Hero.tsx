@@ -8,7 +8,7 @@ const Hero = (): ReactElement => {
 
     return (
         <header className='w-full flex justify-center items-center flex-col'>
-            <nav className='w-full flex justify-between items-center mb-10'>
+            <nav className='w-full flex justify-between items-center p-5'>
                 <img src={logo} alt="OpenAI Summarizer" />
                 <button type='button'
                     className='black_btn'
